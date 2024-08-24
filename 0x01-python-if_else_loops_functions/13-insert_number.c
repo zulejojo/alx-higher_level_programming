@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "listts.h"
+#include "lists.h"
 #include <unistd.h>
 /**
  * print_listint - prints all elements of a listint_t list
@@ -26,7 +26,7 @@ listint_t *insert_node(listint_t **head, int number)
   if (!*head || (*head)->n > number)
     {
       new->next = *head;
-      return (*head = new)
+      return (*head = new);
     }
   else
     {
@@ -39,5 +39,5 @@ listint_t *insert_node(listint_t **head, int number)
       temp->next = new;
       new->next = current;
     }
-  return (new)
+  return (new);
 }
