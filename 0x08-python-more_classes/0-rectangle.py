@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-"""
-program to print empty class
+""" the rectanle class module"""
 
-"""
 
 class Rectangle:
-    """ empty class """
+    """ the rectangle class """
     pass
