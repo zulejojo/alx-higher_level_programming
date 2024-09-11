@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+""" a prgram to print empty cla""
+class Rectangle:
+    pass
