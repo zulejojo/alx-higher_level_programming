@@ -1,0 +1,14 @@
+// Access the command-line arguments
+const args = process.argv.slice(2);
+
+// Determine the number of arguments
+const numberOfArguments = args.length;
+
+// Print the appropriate message based on the number of arguments
+if (numberOfArguments === 0) {
+    console.log('No argument');
+} else if (numberOfArguments === 1) {
+    console.log('Argument found');
+} else {
+    console.log('Arguments found');
+}
