@@ -5,7 +5,8 @@ LockedClass class module
 """
 
 class LockedClass:
+    
     """ No class attribute """
-
-    __slots__ = ["first_name"]
+    
+    __slots__ =["first_name"]
     
