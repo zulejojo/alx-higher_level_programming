@@ -1,8 +1,7 @@
 #!/usr/bin/python3
 """ LockedClass class module"""
 
-
-class LockedClass:
+ class LockedClass:
     """ a class with no class attribute that prevents
     user from creating new instance except
     if the attribute name is first_name
